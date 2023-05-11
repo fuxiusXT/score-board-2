@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="score, sport,  board, points">
+    <meta name="keywords" content="sport result points game ">
+    <link rel="stylesheet" href="style.css">
+    <title>SCORE-BOARD</title>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="domaci">
+           
+            <h3 >HOME</h3>
+            <button id="result-h" >0</button>
+            <div id="home-counter">
+                <button class="one-btn" onclick="onebtn()">+1</button>
+                <button class="two-btn" onclick="twobtn()">+2</button>
+                <button class="three-btn" onclick="threebtn()">+3</button>
+            </div>
+            <button class="new-game" onclick="newgame()">START</button>
+        </div>
+       
+        <div class="gosti">
+            <h3 >GUEST</h3>
+            <button id="result-g" >0</button>
+            <div id="guest-counter">
+                <button class="jedan-btn" onclick="jedanbtn()">+1</button>
+                <button class="dva-btn" onclick="dvabtn()">+2</button>
+                <button class="tri-btn" onclick="tribtn()">+3</button>
+            </div>
+        </div>
+        
+           
+       
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
